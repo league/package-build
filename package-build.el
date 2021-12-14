@@ -575,6 +575,7 @@ If PKG-INFO is nil, an empty one is created."
 
 (defconst package-build-default-files-spec
   '("*.el" "*.el.in" "dir"
+    "README*"
     "*.info" "*.texi" "*.texinfo"
     "doc/dir" "doc/*.info" "doc/*.texi" "doc/*.texinfo"
     (:exclude ".dir-locals.el" "test.el" "tests.el" "*-test.el" "*-tests.el"))
